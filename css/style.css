@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 autp;
+  background-color: #999;
+  text-align: center;
+}
+
+.trigger {
+  height: 35px;
+  width: 300px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: yellow;
+  border: solid 1px yellow;
+}
+
+.trigger:hover {
+  border: solid 2px yellow;
+  background-color: #FFF;
+  transition: 0.3s;
+}
+
+.fab {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.content {
+  display: block;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.box {
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+a:link {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */
